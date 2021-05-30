@@ -1,0 +1,111 @@
+body {
+  font-family: Georgia Pro;
+  color: black;
+  text-align: center;
+}
+
+
+div {
+  margin: 40px auto;
+  background: #f7dcf6;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left:20px;
+  box-shadow: 0 19px 38px
+  rgba(0,0,0,0.30), 0 15px 12px
+  rgba(0,0,0,0.22);
+}
+
+.outer
+{
+  background: white;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
+opacity: 1;
+background-image:  linear-gradient(#f7dcf6 1.8px, transparent 1.8px), linear-gradient(90deg, #f7dcf6 1.8px, transparent 1.8px), linear-gradient(#f7dcf6 0.9px, transparent 0.9px), linear-gradient(90deg, #f7dcf6 0.9px, #ffffff 0.9px);
+background-size: 45px 45px, 45px 45px, 9px 9px, 9px 9px;
+background-position: -1.8px -1.8px, -1.8px -1.8px, -0.9px -0.9px, -0.9px -0.9px;
+  
+}
+.title{
+  max-width: 50em;
+}
+
+.more
+{
+  width: 700px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.end
+{
+  width: 700px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.slide
+{
+  margin: 0px auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left:0px;
+}
+
+.caption
+{
+  text-align: center;
+  background: url(https://static.vecteezy.com/system/resources/previews/002/078/291/large_2x/crumpled-paper-background-free-photo.jpg);
+  font-size: 20px;
+  width: 800px;
+}
+
+.place {
+  background: #eee0ff;
+  max-width: 25em;
+  border-radius: 25px;
+  border: 2px dotted black;
+/*   display: flex; */
+/*   flex-wrap: wrap;
+  flex-direction: row; */
+}
+
+.picture {
+  //background: #ffecbd;
+  max-width: 25em;
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+  flex-direction: row;
+  text-align: left;
+  background: url(https://static.vecteezy.com/system/resources/previews/002/078/291/large_2x/crumpled-paper-background-free-photo.jpg);
+}
+
+.discription{
+  text-align: left;
+  font-size: 19px;
+}
+
+.slideshowDiv {
+  max-width: 1050px;
+  position: relative;
+  margin: 0 px auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left:0px;
+}
+
+.extraPic
+{
+background-color: #ffffff;
+opacity: 1;
+background-image:  radial-gradient(#f7dcf6 1.1px, transparent 1.1px), radial-gradient(#f7dcf6 1.1px, #ffffff 1.1px);
+background-size: 44px 44px;
+background-position: 0 0,22px 22px;
+}
